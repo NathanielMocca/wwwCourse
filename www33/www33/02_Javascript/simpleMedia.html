@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Simple Media</title>
+    <link href="../Styles/3_tripStyleSheet.css" rel="stylesheet" />
+</head>
+<body class="body">
+
+    <div>
+        <span class="title">快樂的旅行</span><br />
+        <br />
+        <embed id ="tripMediaPlayer" runat="server" src="../Video/Jetland.wmv" height="132" width="176" showcontrols="0" /><br />
+        <input id="PlayButton" type="button" value="播放" onclick="playButton_onclick()" />&nbsp; 
+        <input id="PauseButton" type="button" value="暫停" onclick="pauseButton_onclick()"/>&nbsp;
+        <input id="StopButton" type="button" value="停止" onclick="stopButton_onclick()"/><br />
+        <!--Remember add onclick program-->
+    </div>
+
+</body>
+</html>
+<script src="../Javascript/tripMediaJavaScript.js"></script>   <!--Include Javascript-->
